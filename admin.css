@@ -1,0 +1,26 @@
+/* style.css */
+.hero, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #6ac6eb;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.btn, input[type="file"] {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #48ac49;
+    color: white;
+    width: 60%;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: fadeIn 2s ease-out;
+}
